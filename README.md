@@ -8,7 +8,7 @@
 [![dependencies](https://david-dm.org/piecioshka/solidarity-builder.svg)](https://github.com/piecioshka/solidarity-builder)
 [![codecov](https://codecov.io/gh/piecioshka/solidarity-builder/branch/master/graph/badge.svg)](https://codecov.io/gh/piecioshka/solidarity-builder)
 
-Build `.solidarity.json` file using wizard
+Build `.solidarity.json` file using the wizard
 
 ## Features
 

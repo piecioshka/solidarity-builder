@@ -1,0 +1,7 @@
+[
+    {
+        "rule": "cli",
+        "binary": "ssh",
+        "version": "-V"
+    }
+]
