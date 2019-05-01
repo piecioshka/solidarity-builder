@@ -85,3 +85,6 @@ typings/
 
 # default build output
 dist/
+
+# output file
+.solidarity.json
