@@ -15,6 +15,9 @@ const MODULES_PATH = path.join(ROOT_PATH, 'modules');
 const SOURCE_FILE_PATH = path.join(ROOT_PATH, 'src', '.solidarity.example.json');
 const OUTPUT_FILENAME = '.solidarity.json';
 
+const ERROR_CODE_UNKNOWN = 1;
+const ERROR_CODE_MISSING_MODULES = 2;
+
 const QUE_DIST = 'dist_dir_path';
 const QUE_NAME = 'modules';
 
@@ -63,7 +66,7 @@ async function main() {
     const selectedModules = answers[QUE_NAME];
     if (selectedModules.length === 0) {
         console.error('Error: Please select at least one module'.red);
-        process.exit(1);
+        process.exit(ERROR_CODE_MISSING_MODULES);
     }
 
     const distDirectory = answers[QUE_DIST].trim();
@@ -95,4 +98,5 @@ main().catch(err => {
     console.error(
         colors.red(`Error: ${message}`)
     )
+    process.exit(ERROR_CODE_UNKNOWN);
 });
