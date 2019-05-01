@@ -1,0 +1,7 @@
+[
+    {
+        "rule": "cli",
+        "binary": "docker",
+        "version": "^18.0.0"
+    }
+]

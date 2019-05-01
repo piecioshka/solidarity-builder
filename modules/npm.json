@@ -1,0 +1,7 @@
+[
+    {
+        "rule": "cli",
+        "binary": "npm",
+        "semver": ">=6.x.x"
+    }
+]

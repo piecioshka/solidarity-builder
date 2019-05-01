@@ -1,0 +1,7 @@
+[
+    {
+        "rule": "cli",
+        "binary": "mongod",
+        "version": "^4.0.5"
+    }
+]

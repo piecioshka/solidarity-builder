@@ -1,0 +1,12 @@
+[
+    {
+        "rule": "dir",
+        "location": "/Applications/Google Chrome.app/",
+        "platform": "darwin"
+    },
+    {
+        "rule": "dir",
+        "location": "C:\\Program Files (x86)\\Google\\Chrome\\Application\\chrome.exe",
+        "platform": "windows"
+    }
+]

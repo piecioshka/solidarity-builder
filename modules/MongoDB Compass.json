@@ -1,0 +1,7 @@
+[
+    {
+        "rule": "dir",
+        "location": "/Applications/MongoDB Compass.app/",
+        "platform": "darwin"
+    }
+]

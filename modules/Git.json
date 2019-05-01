@@ -1,0 +1,17 @@
+[
+    {
+        "rule": "cli",
+        "binary": "git",
+        "semver": "^2.0.0"
+    },
+    {
+        "rule": "shell",
+        "command": "git config user.name",
+        "match": ".+"
+    },
+    {
+        "rule": "shell",
+        "command": "git config user.email",
+        "match": ".+@.+"
+    }
+]
