@@ -1,0 +1,8 @@
+[
+    {
+        "rule": "shell",
+        "__comment__": "Redirect stderr to stdout",
+        "command": "ssh -T git@github.com 2>&1",
+        "match": "You've successfully authenticated"
+    }
+]
