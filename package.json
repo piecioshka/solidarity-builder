@@ -1,7 +1,7 @@
 {
     "name": "solidarity-builder",
     "version": "1.1.0",
-    "description": "",
+    "description": "Build .solidarity.json file using the wizard",
     "license": "MIT",
     "author": {
         "name": "Piotr Kowalski",
@@ -21,6 +21,11 @@
         "mkdirp": "^0.5.1",
         "resolve-dir": "^1.0.1"
     },
+    "devDependencies": {
+        "codecov": "^3.3.0",
+        "jasmine": "^3.4.0",
+        "nyc": "^14.0.0"
+    },
     "repository": {
         "type": "git",
         "url": "git@github.com:piecioshka/solidarity-builder.git"
@@ -29,10 +34,5 @@
         "solidarity",
         "build"
     ],
-    "bin": "./bin/cli.js",
-    "devDependencies": {
-        "codecov": "^3.3.0",
-        "jasmine": "^3.4.0",
-        "nyc": "^14.0.0"
-    }
+    "bin": "./bin/cli.js"
 }

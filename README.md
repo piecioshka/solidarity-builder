@@ -14,17 +14,7 @@ Build `.solidarity.json` file using the wizard
 
 * :white_check_mark: Build Solidarity config file
 * :white_check_mark: Use nice CLI wizard (use `enquirer`)
-* :white_check_mark: Available validators:
-    + Docker
-    + Git
-    + GitHub
-    + Google Chrome
-    + MongoDB Compass
-    + MongoDB
-    + Node.js
-    + npm
-    + SSH
-    + Visual Studio Code
+* :white_check_mark: 10 validators to use (look at [modules/](/modules/))
 
 ## Installation
 
