@@ -1,4 +1,7 @@
+.DS_Store
+
+test/
+
 .markdownlint.json
 .travis.yml
-CODE_OF_CONDUCT.md
-test/
+.solidarity.json
