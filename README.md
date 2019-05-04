@@ -6,7 +6,7 @@
 [![downloads count](https://img.shields.io/npm/dt/solidarity-builder.svg)](https://www.npmjs.com/~piecioshka)
 [![travis](https://img.shields.io/travis/piecioshka/solidarity-builder.svg)](https://travis-ci.org/piecioshka/solidarity-builder)
 [![dependencies](https://david-dm.org/piecioshka/solidarity-builder.svg)](https://github.com/piecioshka/solidarity-builder)
-[![codecov](https://codecov.io/gh/piecioshka/solidarity-builder/branch/master/graph/badge.svg)](https://codecov.io/gh/piecioshka/solidarity-builder)
+[![coveralls](https://coveralls.io/repos/github/piecioshka/solidarity-builder/badge.svg?branch=master)](https://coveralls.io/github/piecioshka/solidarity-builder?branch=master)
 
 Build `.solidarity.json` file using the wizard
 
