@@ -12,18 +12,19 @@
         "clear": "rm -rf dist/ tmp/ coverage/ .nyc_output/ .solidarity.json",
         "clear:all": "rm -rf node_modules && npm run clear",
         "test": "jasmine test/**/*.js",
-        "coverage": "nyc npm run test && nyc report --reporter=text-lcov | coveralls -v"
+        "coverage": "nyc npm run test && nyc report --reporter=html",
+        "coveralls": "nyc npm run test && nyc report --reporter=text-lcov | coveralls -v"
     },
     "dependencies": {
-        "colors": "^1.3.3",
-        "enquirer": "^2.3.0",
-        "mkdirp": "^0.5.1",
+        "colors": "^1.4.0",
+        "enquirer": "^2.3.6",
+        "mkdirp": "^1.0.4",
         "resolve-dir": "^1.0.1"
     },
     "devDependencies": {
-        "coveralls": "^3.0.3",
-        "jasmine": "^3.4.0",
-        "nyc": "^14.1.0"
+        "coveralls": "^3.1.1",
+        "jasmine": "^3.10.0",
+        "nyc": "^15.1.0"
     },
     "repository": {
         "type": "git",
