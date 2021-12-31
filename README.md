@@ -4,7 +4,7 @@
 
 [![npm version](https://badge.fury.io/js/solidarity-builder.svg)](https://badge.fury.io/js/solidarity-builder)
 [![downloads count](https://img.shields.io/npm/dt/solidarity-builder.svg)](https://www.npmjs.com/~piecioshka)
-[![travis](https://img.shields.io/travis/piecioshka/solidarity-builder.svg)](https://travis-ci.org/piecioshka/solidarity-builder)
+[![travis-ci](https://api.travis-ci.com/piecioshka/solidarity-builder.svg?branch=master)](https://app.travis-ci.com/github/piecioshka/solidarity-builder)
 [![coveralls](https://coveralls.io/repos/github/piecioshka/solidarity-builder/badge.svg?branch=master)](https://coveralls.io/github/piecioshka/solidarity-builder?branch=master)
 
 Build `.solidarity.json` file using the wizard
