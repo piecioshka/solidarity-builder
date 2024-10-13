@@ -1,6 +1,6 @@
 {
     "name": "solidarity-builder",
-    "version": "1.2.4",
+    "version": "1.2.5",
     "description": "Build .solidarity.json file using the wizard",
     "license": "MIT",
     "author": {
