@@ -26,11 +26,20 @@
     },
     "repository": {
         "type": "git",
-        "url": "git@github.com:piecioshka/solidarity-builder.git"
+        "url": "git+ssh://git@github.com/piecioshka/solidarity-builder.git"
     },
+    "files": [
+        "bin",
+        "modules",
+        "src",
+        "package.json",
+        "README.md"
+    ],
     "keywords": [
         "solidarity",
         "build"
     ],
-    "bin": "./bin/cli.js"
+    "bin": {
+        "solidarity-builder": "bin/cli.js"
+    }
 }

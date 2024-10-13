@@ -12,9 +12,9 @@ Build `.solidarity.json` file using the wizard
 
 ## Features
 
-* :white_check_mark: Build Solidarity config file
-* :white_check_mark: Use nice CLI wizard (use `enquirer`)
-* :white_check_mark: 10 validators to use (look at [modules/](/modules/))
+* ✅ Build Solidarity config file
+* ✅ Use nice CLI wizard (use `enquirer`)
+* ✅ 10 validators to use (look at [modules/](/modules/))
 
 ## Installation
 
@@ -47,4 +47,4 @@ npm run coverage
 
 ## License
 
-[The MIT License](http://piecioshka.mit-license.org) @ 2019
+[The MIT License](https://piecioshka.mit-license.org) @ 2019
