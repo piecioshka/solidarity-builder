@@ -1,7 +1,7 @@
 {
     "name": "solidarity-builder",
     "version": "1.2.6",
-    "description": "Build .solidarity.json file using the wizard",
+    "description": "🔨 Build .solidarity.json file using the wizard",
     "license": "MIT",
     "author": {
         "name": "Piotr Kowalski",
