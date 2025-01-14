@@ -2,6 +2,7 @@
 
 # solidarity-builder
 
+[![cli-available](https://badgen.net/static/cli/available/?icon=terminal)](https://runkit.com/npm/solidarity-builder)
 [![node version](https://img.shields.io/node/v/solidarity-builder.svg)](https://www.npmjs.com/package/solidarity-builder)
 [![npm version](https://badge.fury.io/js/solidarity-builder.svg)](https://badge.fury.io/js/solidarity-builder)
 [![downloads count](https://img.shields.io/npm/dt/solidarity-builder.svg)](https://www.npmjs.com/package/solidarity-builder)
@@ -13,38 +14,26 @@
 
 ## Features
 
-* ✅ Build Solidarity config file
-* ✅ Use nice CLI wizard (use `enquirer`)
-* ✅ 10 validators to use (look at [modules/](/modules/))
+- ✅ Build Solidarity config file
+- ✅ Use nice CLI wizard (use `enquirer`)
+- ✅ 10 validators to use (look at [modules/](/modules/))
 
-## Installation
+## CLI
+
+Installation:
 
 ```bash
 npm install -g solidarity-builder
 ```
 
-## CLI
-
 ```bash
 solidarity-builder
 ```
 
-## Unit tests
-
-```bash
-npm test
-```
-
-## Code coverage
-
-```bash
-npm run coverage
-```
-
 ## Related
 
-* [test-solidarity](https://github.com/piecioshka/test-solidarity)
-* [solidarity-nodejs](https://github.com/piecioshka/solidarity-nodejs)
+- [test-solidarity](https://github.com/piecioshka/test-solidarity)
+- [solidarity-nodejs](https://github.com/piecioshka/solidarity-nodejs)
 
 ## License
 
