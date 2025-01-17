@@ -2,7 +2,7 @@
 
 # solidarity-builder
 
-[![cli-available](https://badgen.net/static/cli/available/?icon=terminal)](https://runkit.com/npm/solidarity-builder)
+[![cli-available](https://badgen.net/static/cli/available/?icon=terminal)](#cli)
 [![node version](https://img.shields.io/node/v/solidarity-builder.svg)](https://www.npmjs.com/package/solidarity-builder)
 [![npm version](https://badge.fury.io/js/solidarity-builder.svg)](https://badge.fury.io/js/solidarity-builder)
 [![downloads count](https://img.shields.io/npm/dt/solidarity-builder.svg)](https://www.npmjs.com/package/solidarity-builder)
