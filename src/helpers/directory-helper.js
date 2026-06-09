@@ -5,7 +5,6 @@ const colors = require('colors');
 const mkdirp = require('mkdirp');
 
 const open = util.promisify(fs.readdir);
-const mkdir = util.promisify(mkdirp);
 
 function listDirectory(pathname) {
     return open(pathname);
@@ -16,7 +15,9 @@ function createDirectory(pathname) {
     console.log(
         `${colors.yellow('✔')} ${colors.bold(message)}: ${pathname}`
     )
-    return mkdir(pathname);
+    // `mkdirp` (v1+) already returns a Promise; wrapping it with
+    // `util.promisify` passed a callback as `opts` → "invalid options argument".
+    return mkdirp(pathname);
 }
 
 module.exports = {
