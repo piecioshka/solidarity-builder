@@ -12,6 +12,8 @@
 
 🔨 Build `.solidarity.json` file using the wizard
 
+![](demo/solidarity-builder.gif)
+
 ## Features
 
 - ✅ Build Solidarity config file
