@@ -8,7 +8,7 @@
 [![downloads count](https://img.shields.io/npm/dt/solidarity-builder.svg)](https://www.npmjs.com/package/solidarity-builder)
 [![size](https://packagephobia.com/badge?p=solidarity-builder)](https://packagephobia.com/result?p=solidarity-builder)
 [![license](https://img.shields.io/npm/l/solidarity-builder.svg)](https://piecioshka.mit-license.org)
-[![github-ci](https://github.com/piecioshka/solidarity-builder/actions/workflows/testing.yml/badge.svg)](https://github.com/piecioshka/solidarity-builder/actions/workflows/testing.yml)
+[![github-ci](https://github.com/piecioshka/solidarity-builder/actions/workflows/ci.yml/badge.svg)](https://github.com/piecioshka/solidarity-builder/actions/workflows/ci.yml)
 
 🔨 Build `.solidarity.json` file using the wizard
 
